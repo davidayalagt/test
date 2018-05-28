@@ -1,6 +1,6 @@
 // Related to https://issues.jenkins-ci.org/browse/JENKINS-26481
 
-abcs = ['a', 'b', 'c']
+abcs = ['a', 'b', 'c', 'Hola Mundo']
 
 node('master') {
     stage('Test 1: loop of echo statements') {

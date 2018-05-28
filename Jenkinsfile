@@ -2,7 +2,7 @@
 
 abcs = ['a', 'b', 'c']
 
-node('MLC-Slave') {
+node('master') {
     stage('Test 1: loop of echo statements') {
         echo_all(abcs)
     }
